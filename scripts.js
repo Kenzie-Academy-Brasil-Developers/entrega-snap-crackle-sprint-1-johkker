@@ -23,8 +23,8 @@ function snapCrackle(maxValue) {
         }
 
     }
-    let j
-    if (j = maxValue) {
+    let j =  maxValue
+    if (j === maxValue) {
         if (j % 5 == 0 && j % 2 != 0) {
 
             texto += "SnapCrackle."
@@ -89,7 +89,7 @@ function snapCracklePrime(maxValue) {
 
     }
     let j = maxValue
-    if (j = maxValue) {
+    if (j === maxValue) {
         if (j % 5 == 0 && j % 2 != 0) {
 
             texto += "SnapCrackle"
